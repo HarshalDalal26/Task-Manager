@@ -1,0 +1,50 @@
+.completed{
+    background-color: #003979!important;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    flex:1.125
+}
+
+.incomplete{
+    color: #D60707 !important;
+    background-color: white!important;
+    text-align: center;
+    font-size: 10px;    
+    height: 30px;
+    width: 100px;
+    flex:1.125;
+}
+
+.delete{
+    background-color: #D60707!important;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    height: 30px;
+    flex:1;
+    width: 80px;
+}
+
+.task-list-title{
+    color: #003979;
+    font-size: 25px;
+    font-weight:500;
+    flex:6.875;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-item{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    box-shadow: 3px 3px 15px #8888;
+    align-items: center;
+    border-radius: 3px;
+    gap: 5px;
+    padding:10px;
+}

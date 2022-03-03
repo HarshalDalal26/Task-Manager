@@ -1,0 +1,43 @@
+#create-task-div{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px #888888;
+ }
+
+ #create-task-heading{
+     padding-top: 20px;
+     color: #003979;
+     text-align: center;
+ }
+
+#create-task-form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.create-task{
+    align-self: center;
+    width: 500px;
+    /* height:20px; */
+    flex: 1;
+}
+
+.create-task-desc{
+    align-self: center;
+    width: 500px;
+    /* height:20px; */
+    flex: 2;
+}
+
+#create-task-btn{
+    height:40px;
+    background-color: #003979;
+    width: 150px;
+    align-self: center;
+}

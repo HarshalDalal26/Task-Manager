@@ -1,0 +1,13 @@
+#tasklist-heading{
+    padding-top: 20px;
+    color: #003979;
+    text-align: center;
+}
+
+#tasklist-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
